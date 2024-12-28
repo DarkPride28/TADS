@@ -5,20 +5,10 @@
  */
 
 /* 
- * File:   main.c
+ * File:   ListaDoblementeEnlazadaGenerica.c
  * Author: ISA
- *
- * Created on December 28, 2024, 3:48 PM
- */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-/*
  * 
+ * Created on December 28, 2024, 3:56 PM
  */
-int main(int argc, char** argv) {
 
-    return (EXIT_SUCCESS);
-}
-
+#include "ListaDoblementeEnlazadaGenerica.h"
