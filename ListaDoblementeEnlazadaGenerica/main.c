@@ -19,7 +19,7 @@
  */
 int main(int argc, char** argv) {
     void *L1 = NULL;
-    //L1 = crearListaDoble();
+    L1 = crearListaDoble();
     int esVacia = esListaDobleVacia(L1);
     printf(" %d \n",esVacia);
     return 0;

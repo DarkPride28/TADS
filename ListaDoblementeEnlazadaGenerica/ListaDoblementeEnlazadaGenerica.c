@@ -41,7 +41,13 @@ int destruirListaDoble(void** lista){
     void **gestor = (void**)lista;
     int resultado = -1; //returna -1 si el gestor es null
     if(gestor){
-        
+        resultado = !esListaDobleVacia(*lista);
+        if(resultado){ //no esta vacia
+            //llamar a limpiar lista.
+        }
+        int *cantidad = (int*)gestor[CANTIDAD];
+        free(cantidad);
+        free(gestor);
     }
     
     return resultado;
